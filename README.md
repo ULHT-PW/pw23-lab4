@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA, Programação Web, 22-23**
  
-# Lab 3: *Layouts baseados em flex e grid* 
+# Lab 4: *Website responsivo seguindo as boas práticas de Web Design* 
 
 ## Objetivos
 * Aplicar os conceitos aprendidos de propriedades CSS, em especial flexbox e grid.
