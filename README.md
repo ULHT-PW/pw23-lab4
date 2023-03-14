@@ -24,13 +24,13 @@
 * crie uma pasta lab4 para este laboratório
 * utilize um ficheiro CSS para configurar 
 
-# Indicações para todas as páginas a criar
+# 2. Páginas a criar
+## Indicações para todas as páginas a criar
 * escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal * e propriedade font-family (veja slide)
 * Seguindo as boas práticas de design referidas, e mantendo um design homogéneo, integre todas as páginas criadas nos labs anteriores, melhorando o seu design sempre que possível.
 * Através do menú (a criar no fim deste laboratório) que deverá estar sempre presente, deverá poder navegar por todas as páginas criadas.
 * Garanta a boa responsividade do design de todas as páginas, testando-as no seu telemóvel.
 * Garanta uma boa [configuração da janela viewport](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=4) quando usar a aplicação num telemóvel, assim como a configuração do [box-sizing](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=6)
-
 
 ## Hero Page 🦸‍♀️
 
@@ -39,7 +39,7 @@
    * uma frase que goste ao lado, motivacional
    * um menu anterior em cima. 
 
-# LAyouts grid responsivos
+## Layouts grid responsivos
 Adapte as 5 páginas com layouts grid que criou no lab3 por forma a que sejam responsivos ao tamanho do ecrã usando [media queries](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=11). PAra cada página, deverá alterar a disposição dos seus elementos e adaptar-se para PC, telemovel, variando se estiver em modo landscape ou portrait.
 
 ## Paralax
@@ -61,15 +61,8 @@ Crie uma página com animações:
 * crie duas animações com [@keyframes](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) usando o logotipo do DEISI ou outra imagem que queira
 * explore e aplique 2 [efeitos](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) 
 * Crie um desenho em SVG a seu gosto usando pelo meno 3 formas geométricas distintas. Inclua neste uma animação.
+* Inclua um poema. coloque cada quadra num div, e cada verso num parágrafo. Utilize todos os [selectores](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.4-css-e-seus-seletores.pdf?#page=17) e [combinadores de seletores](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.4-css-e-seus-seletores.pdf?#page=37), inserindo efeitos de transição em certas linhas do poema (mundando suas cores, tamanho de fonte, rotação, etc).
 
-## Menu Dropdown
-
-* Organize os conteúdos das varias páginas criadas agrupando-as em tópicos, e utilizando sub-menus [dropdown](https://codepen.io/LucioStuder/pen/mdprdBK)
-
-## Image Map
-* Crie uma wordcloud com os nomes do menu, e hiperlinks para as páginas usando um [image Map em SVG](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.9-SVG.pdf#page=13) 
-* Coloque-a num elemento a seguir à hero page, que aparece quando faz scroll down.
-* No footer da página index coloque o seu nome, DEISI e ULusofona
 
 # 3. Submissão
 
