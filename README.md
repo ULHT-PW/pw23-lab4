@@ -22,25 +22,25 @@
 * Deverá ter instalado o git no seu computador.
 * reveja os slides da aula.
 * crie uma pasta lab4 para este laboratório
+* utilize um ficheiro CSS para configurar 
 
-
-## Hero Page 🦸‍♀️
-
-* Crie o ficheiro `index.html` que será a hero page da sua cidade escolhida. Siga os principios falados nas aulas e inclua:
-   * uma fotografia ou video em background
-   * uma frase que goste ao lado, motivacional
-   * um menu anterior em cima. 
-
+# Indicações para todas as páginas a criar
+* escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal * e propriedade font-family (veja slide)
+* Seguindo as boas práticas de design referidas, e mantendo um design homogéneo, integre todas as páginas criadas nos labs anteriores, melhorando o seu design sempre que possível.
+* Através do menú (a criar no fim deste laboratório) que deverá estar sempre presente, deverá poder navegar por todas as páginas criadas.
 * Garanta a boa responsividade do design de todas as páginas, testando-as no seu telemóvel.
 * Garanta uma boa [configuração da janela viewport](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=4) quando usar a aplicação num telemóvel, assim como a configuração do [box-sizing](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=6)
 
 
-## Desenho SVG
+## Hero Page 🦸‍♀️
 
-* Crie um desenho em SVG a seu gosto usando pelo meno 3 formas distintas
+* Crie o ficheiro `index.html` que será a hero page da sua cidade escolhida. Siga as boas práticas de [web design](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.10-web-design.pdf) referidas nas aulas para todas as páginas criadas e inclua:
+   * uma fotografia ou video em background
+   * uma frase que goste ao lado, motivacional
+   * um menu anterior em cima. 
 
-
-
+# LAyouts grid responsivos
+Adapte as 5 páginas com layouts grid que criou no lab3 por forma a que sejam responsivos ao tamanho do ecrã usando [media queries](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=11). PAra cada página, deverá alterar a disposição dos seus elementos e adaptar-se para PC, telemovel, variando se estiver em modo landscape ou portrait.
 
 ## Paralax
 
@@ -59,7 +59,8 @@ Crie uma página com um [vídeo em background](https://moodle.ensinolusofona.pt/
 Crie uma página com animações:
 * crie duas animações com [transformações](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=17) e [transições](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=20). Se quiser, pode usar um dos logos do DEISI em SVG, disponiveis neste repositorio
 * crie duas animações com [@keyframes](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) usando o logotipo do DEISI ou outra imagem que queira
-* * explore e aplique 2 [efeitos](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) 
+* explore e aplique 2 [efeitos](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) 
+* Crie um desenho em SVG a seu gosto usando pelo meno 3 formas geométricas distintas. Inclua neste uma animação.
 
 ## Menu Dropdown
 
@@ -81,4 +82,4 @@ Crie uma página com animações:
 
  # Fim ☀
  
-Esperamos que tenha gostado de aplicar os conhecimentos para criar páginas responsivas e com efeitos e estilizações &#127760;!
+Esperamos que tenha gostado de aplicar os conhecimentos para criar páginas responsivas, com efeitos, animações e seguindo boas práticas de design Web &#127760;!
