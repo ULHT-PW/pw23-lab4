@@ -3,115 +3,69 @@
 # Lab 4: *Website responsivo seguindo as boas práticas de Web Design* 
 
 ## Objetivos
-* Aplicar os conceitos aprendidos de propriedades CSS, em especial flexbox e grid.
-* Criar um novo repositório e aplicação no PythonAnyWhere para este laboratório
+* Este será o último laboratório sobre a cidade que escolheu, onde irá aplicar as técnicas aprendidas de design responsivo, efeitos e animações.
+* Irá igualmente explorar as boas práticas de web design 
+
 
 ## Recomendações
-* Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
-* Execute com atenção cada passo, certificando-se que implementa todos os detalhes. 
-* Se tiver alguma dúvida:
-    * recorra aos slides da aula que contêm todos os conhecimentos que precisa para realizar o laboratório.
+* Leia o enunciado com atenção antes de o começar a realizar, para entender o que fará.
+* Explore o seguinte material:
+    * [slides da aula](https://moodle.ensinolusofona.pt/course/view.php?id=9482#section-1)
+    * exemplos em [Code Pen](https://codepen.io/LucioStuder/collections/?grid_type=list)
+    * [vídeo-tutorial: Criando um layout responsivo com uma media query](https://educast.fccn.pt/vod/clips/23dbqe9keb/streaming.html?locale=pt)
     * [video-tutorial: posicionamento de elementos e seletores vários](https://educast.fccn.pt/vod/clips/1tmk0lmtww/html5.html?locale=en)
     * [vídeo-tutorial: construindo um layout com CSS Grid](https://educast.fccn.pt/vod/clips/1qib570kz7/html5.html?locale=en)
+
 
 ## Pré-requisitos
 * Deverá ter o VSCode instalado para editar o código HTML de forma fácil.
 * Deverá ter instalado o git no seu computador.
-* reveja os slides sobre [propriedades CSS](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf) e [flex e grid](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf)
-* explore os exercícios do tutorial [Flexbox froggy](https://flexboxfroggy.com/)
+* reveja os slides da aula.
+* crie uma pasta lab4 para este laboratório
 
 
-# 1. Flex 
-* cria uma pasta com o nome lab3.
-* Irá criar uma página index.html onde explorará a propriedade <code>display:flex</code>
-* crie um ficheiro CSS à parte, para estilizar esta página
-* escolha uma fonte Google que goste, inclua o link para esta e utilize-a em todo o website, definindo um seletor universal <code>*</code> e propriedade <code>font-family</code> (veja [slide](https://moodle.ensinolusofona.pt/pluginfile.php/318343/mod_label/intro/pw-02.5-propriedades-css.pdf#page=10))
-* especifique no style sempre <code>* {box-sizing: border-box; padding: 0; margin: 0;}</code>
+## Hero Page 🦸‍♀️
 
-### 1.1. Elemento centrado usando <code>flex</code>
+* Crie o ficheiro `index.html` que será a hero page da sua cidade escolhida. Siga os principios falados nas aulas e inclua:
+   * uma fotografia ou video em background
+   * uma frase que goste ao lado, motivacional
+   * um menu anterior em cima. 
 
-* Crie um elemento div que tenha largura 100vw e altura 50vh
-* atribua-lhe uma cor de fundo
-* coloque dentro do div um parágrafo <code>p</code> com a palavra 'Viajar' ou outra palavra ou frase que queira e centre-a no div, usando CSS flex (ser [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=12)). 
-* Configure o tamanho do emoji com a propriedade font-size
+* Garanta a boa responsividade do design de todas as páginas, testando-as no seu telemóvel.
+* Garanta uma boa [configuração da janela viewport](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=4) quando usar a aplicação num telemóvel, assim como a configuração do [box-sizing](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=6)
 
 
-### 1.2. Imagem com texto usando <code>position</code>
+## Desenho SVG
 
-<img src="https://user-images.githubusercontent.com/42048382/221723524-823851af-f4c9-467c-8d6f-3e3857dbbeed.png" width="300px">
-
-* Escolha uma imagem. Pode usar o [Unsplash](https://unsplash.com/), repositório de imagems de uso livre de onde pode usar: 
-   * **imagem aleatória** de acordo com termos de pesquisa e tamanho especificado. Por exemplo, para as palavras "beach sand", 600x400, especifica-se https://source.unsplash.com/random/600×400/?beach,sand. Cada vez que refrescar a sua página terá uma imagem diferente.
-   * **escolher imagem**. Escolha uma imagem (das free) clique nela e copie do URL o código (unsplash.com/photos/**xg8z_KhSorQ**). Pode especificar a dimensão que pretende (e.g., 300x200). Construa o hiperlink: https://source.unsplash.com/xg8z_KhSorQ/300x200
-* Crie um elemento div com <code>position:relative</code> e contendo um elemento com a imagem <code>img</code> e um elemento parágrafo <code>p</code>.
-* dimensione a imagem com largura 100%, <code>width:100%</code> por forma a ocupar toda a largura do browser.
-* coloque uma frase sobre a imagem usando as propriedades <code>position:absolute</code> e especificando a posição em relação ao topo <code>top</code> e lado esquerdo <code>left</code> (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=22)). EScolha uma cor para o texto que contraste bem com o fundo.
-* Se tiver dúvidas, veja o [video-tutorial: posicionamento de elementos e seletores vários](https://educast.fccn.pt/vod/clips/1tmk0lmtww/html5.html?locale=en)
+* Crie um desenho em SVG a seu gosto usando pelo meno 3 formas distintas
 
 
-### 1.3. Capitais europeias usando <code>flex</code>
-
-![image](https://user-images.githubusercontent.com/42048382/158489558-8f31368d-e15b-4a32-82c8-683ac6b2b482.png)
-
-Usando uma flexbox (propriedade <code>display: flex</code>) crie um elemento flex que replique o layout acima. O código a implementar está em baixo, explicado a seguir:
-* crie uma pasta images para a qual extraia as imagens de capitais europeias contidas no ficheiro [ZIP](https://github.com/ULHT-PW/pw23-lab3/blob/main/capitais.zip) 
-* Crie um *container* flex (elemento <code>div</code> com classe *capitais*, com a propriedade <code>display: flex</code>)) e contendo um conjunto de items <code>div</code> ([slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=5))
-* configure o container por forma a ter uma cor de fundo clara  ([slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=11))
-* os items serão um conjunto de elementos <code>div</code>. Cada um será alusivo a uma capital europeia tal como se descreve a seguir.
-* cada item <code>div</code> deverá conter dois elementos <code>div</code>, um com a imagem, e outro com um parágrafo com o nome da capital. 
-* configure os div dentro do container (recorrendo à composição de selectores <code>.container div</code>) por forma a terem uma borda e cantos arredondados (ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=12))
-* dentro de cada <code>div</code> coloque a imagem do lado esquerdo e do lado direito um parágrafo com o nome da cidade. para tal, configure ambos com a propriedade <code>display: inline-block</code>(ver [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf#page=17))
-* explore as propriedades <code>flex-flow</code> e <code>justify-content</code> e <code>align-items</code> (ver [slide e links](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=10)) para configurar adequadamente as imagens. Garanta espaçamento entre estas, usando a propriedade <code>margin</code>. 
-* Exemplo de implementação. Deverá entender em detalhe tudo o que é feito em cada selector (são conceitos que saem na frequência).
-
-![image](https://user-images.githubusercontent.com/42048382/158496390-ad99c24c-dfe8-4030-b662-244a9eaec457.png)
-
-### 1.4. Propriedades CSS <code>flex</code>
-
-Crie um div onde explora dentro deste as propriedades:
-* crie um conjunto de círculos: crie elemento quadrado, esolha cor de fundo, e defina border-radius = sua largura... 😀). coloque uma palavra centrada, usando flex.
-* aplique clip a uma imagem
-* z-index
-* display:hidden e hover (quando passa com o rato por cima, desaparece)
-* explore [ícones](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf?time=1677539648106)
-
-### 1.5. Cabeçalho <code>header</code> com <code>position:sticky</code>
-
-* Crie um cabeçalho, elemento <code>header</code>, fixo com a propriedade <code>position:sticky</code> (ver [codepen](https://codepen.io/LucioStuder/pen/popNbpm?editors=1100)).  
-* O <code>header</code> deverá conter:
-    * <code>h1</code> com um título do lado esquerdo 
-    * <code>nav</code> com 
-        * links "ancora" para as várias partes da página (ver [exemplo](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.1-html.pdf#page=44)), definindo id para cada uma das partes anteriores. 
-        * link para uma das páginas da próxima secção grid.
-* O <code>header</code>, configure com <code>display:flex</code>, e faça com que o titulo e nav fiquem cada um encostado a uma lado, com a propriedade <code>justify-content:space-between</code> ([exemplo](https://codepen.io/LucioStuder/pen/oNprRQd))
-* Escolha uma cor de fundo <code>background</code> e do texto <code>color</code> que goste.
-* estilize os hiperlinks <code>a</code> do nav com as seguintes propriedades:
-    * <code>padding:20px</code> para que haja espaço à volta de cada palavra
-    * remova a formatação de hiperlink do texto (sublinhado azul), com <code>text-decoration: none</code>.
-    * escolha uma cor para a fonte
-    * estilize o que acontece quando passa por cima do menu. PAra tal, deverá definir o selector <code>a:hover</code> com as seguintes propriedades:
-        * associe uma cor de fundo, cinza claro, quando passa por cima do link com o rato
-        * texto em bold, com  <code>font-weight: bold</code>
 
 
-# 2. Páginas com diferentes layouts usando <code>grid</code>
+## Paralax
 
-* O segredo do CSS grid ([slides](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.6-propriedades-css-flex-grid-short.pdf#page=26)) é:
-    * dar um nome <code>grid-area</code> a cada elemento do layout  
-    * no contentor grid, com a propriedade <code>displaygrid</code>, caracterizar:
-        * <code>grid-template-areas</code>
-        * <code>grid-template-columns</code> 
-        * <code>grid-template-rows</code>.
-    * Explore a combinação de unidades diferentes, fr, %, vw
-* Se tiver dúvidas sobre CSS Grid, veja o [vídeo-tutorial: construindo um layout com CSS Grid](https://educast.fccn.pt/vod/clips/1qib570kz7/html5.html?locale=en)
-* Explore o CSS grid brincando e alterando o [codepen sobre layout grid](https://codepen.io/LucioStuder/pen/popowOY?editors=1100). 
-* Crie uma combinação de pelo menos 5 elementos semânticos HTML (header, nav, main, article, aside, footer...):
-    * configure dois elementos com uma cor de fundo diferente e uma palavra a seu gosto
-    * 2 com imagens de fundo (veja o [slide](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.5-propriedades-css.pdf?time=1677539648106#page=5), usando  <code>background-image:url(...)</code> e <code>background-size:cover</code>). 
-    * um elemento <code>grid</code>
-* faça 6 copias do ficheiro HTML, dando nomes diferentes.
-* usando CSS grid, crie, com o mesmo conteúdo, 6 páginas com 6 layouts diferentes. Configure o CSS dentro do próprio html, no elemento style. Inspire-se nos [exemplos de layouts com 2 e 3 colunas](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Design_and_accessibility/Common_web_layouts) e invente.
-* no <code>grid</code> insira 6 links (pode ser apenas um número) para cada uma das páginas, e um sexto para a página Flex. 
+Crie uma página HTML com efeitos [paralax](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=12), usando textos e fotografias 
+
+## Imagens responsivas
+
+Crie um elemento com [imagens responsivas](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=6), variando consoante a largura do ecrã
+
+## Vídeo background
+
+Crie uma página com um [vídeo em background](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=11) da cidade que escolheu, colocando uma barra com texto. 
+
+## Animações
+
+Crie uma animação usando o logotipo do DEISI
+
+## Menu Dropdown
+
+* Organize os conteúdos das varias páginas criadas agrupando-as em tópicos, e utilizando sub-menus [dropdown](https://codepen.io/LucioStuder/pen/mdprdBK)
+
+## Image Map
+* Crie uma wordcloud com os nomes do menu, e hiperlinks para as páginas usando um [image Map em SVG](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.9-SVG.pdf#page=13) 
+* Coloque-a num elemento a seguir à hero page, que aparece quando faz scroll down.
+* No footer da página index coloque o seu nome, DEISI e ULusofona
 
 # 3. Submissão
 
