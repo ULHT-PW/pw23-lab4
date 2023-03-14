@@ -56,7 +56,10 @@ Crie uma página com um [vídeo em background](https://moodle.ensinolusofona.pt/
 
 ## Animações
 
-Crie uma animação usando o logotipo do DEISI
+Crie uma página com animações:
+* crie duas animações com [transformações](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=17) e [transições](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=20). Se quiser, pode usar um dos logos do DEISI em SVG, disponiveis neste repositorio
+* crie duas animações com [@keyframes](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) usando o logotipo do DEISI ou outra imagem que queira
+* * explore e aplique 2 [efeitos](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) 
 
 ## Menu Dropdown
 
