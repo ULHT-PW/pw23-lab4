@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA, Programação Web, 22-23**
  
-# Lab 4: *Website responsivo seguindo as boas práticas de Web Design* 
+# Lab 4: *Web design responsivo* 
 
 ## Objetivos
 * Este será o último laboratório sobre a cidade que escolheu, onde irá aplicar as técnicas aprendidas de design responsivo, efeitos e animações.
