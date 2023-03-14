@@ -3,9 +3,10 @@
 # Lab 4: *Web design responsivo* 
 
 ## Objetivos
-* Este será o último laboratório sobre a cidade que escolheu, onde irá aplicar as técnicas aprendidas de design responsivo, efeitos e animações.
-* Irá igualmente explorar as boas práticas de web design 
-
+* Este será o último laboratório sobre a cidade que escolheu, onde irá aplicar as técnicas aprendidas de design responsivo, efeitos e animações. Irá igualmente explorar as boas práticas de web design.
+* Este laboratório será avaliado por colegas seus, pelo que explore ao máximo as técnicas aprendidas para fazer um website a seu gosto.
+* O prazo de entrega será dia 20, sendo avaliado posteriormente.
+* Servirá como forma de preparação para o miniteste a realizar na semana de 20.3 nas aulas práticas.
 
 ## Recomendações
 * Leia o enunciado com atenção antes de o começar a realizar, para entender o que fará.
