@@ -49,7 +49,7 @@ Crie uma página HTML com efeitos [paralax](https://moodle.ensinolusofona.pt/plu
 
 ## Imagens responsivas
 
-Crie um elemento com [imagens responsivas](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=6), variando consoante a largura do ecrã
+Crie um elemento com [imagens responsivas](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=6), mudando as imagens consoante a largura do ecrã
 
 ## Vídeo background
 
@@ -63,6 +63,14 @@ Crie uma página com animações:
 * explore e aplique 2 [efeitos](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.8-efeitos-e-animacoes.pdf#page=22) 
 * Crie um desenho em SVG a seu gosto usando pelo meno 3 formas geométricas distintas. Inclua neste uma animação.
 * Inclua um poema. coloque cada quadra num div, e cada verso num parágrafo. Utilize todos os [selectores](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.4-css-e-seus-seletores.pdf?#page=17) e [combinadores de seletores](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.4-css-e-seus-seletores.pdf?#page=37), inserindo efeitos de transição em certas linhas do poema (mundando suas cores, tamanho de fonte, rotação, etc).
+
+## Menu 
+
+Agrupe as páginas por tópicos e crie um menu com [submenus dropdown](https://codepen.io/LucioStuder/pen/mdprdBK).
+
+## Wordcloud com  Image Map SVG
+
+Crie uma wordcloud com os titulos dos menus (tamanho maior) e submenus (tamanho mais pequeno). Crie um [image map SVG](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.9-SVG.pdf?#page=13), incluindo links para cada uma das respetivas páginas.
 
 
 # 3. Submissão
