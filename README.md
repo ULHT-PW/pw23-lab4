@@ -70,7 +70,7 @@ Agrupe as páginas por tópicos e crie um menu com [submenus dropdown](https://c
 
 ## Wordcloud com  Image Map SVG
 
-Crie uma wordcloud com os titulos dos menus (tamanho maior) e submenus (tamanho mais pequeno). Crie um [image map SVG](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.9-SVG.pdf?#page=13), incluindo links para cada uma das respetivas páginas.
+Crie uma wordcloud com os titulos dos menus (tamanho maior) e submenus (tamanho mais pequeno). Crie um [image map SVG](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.9-SVG.pdf?#page=13), incluindo links para cada uma das respetivas páginas. Veja os exemplos neste repositorio, ficheiros [wordcloud.svg](https://github.com/ULHT-PW/pw23-lab4/blob/main/wordcloud.svg) e [wordcloud.html](https://github.com/ULHT-PW/pw23-lab4/blob/main/wordcloud.html). Como vê, pode embeber o codigo do svg diretamente no HTML
 
 
 # 3. Submissão
