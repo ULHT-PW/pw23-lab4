@@ -66,7 +66,7 @@ Crie uma página com animações:
 
 ## Menu 
 
-Agrupe as páginas por tópicos e crie um menu com [submenus dropdown](https://codepen.io/LucioStuder/pen/mdprdBK).
+Agrupe as páginas por tópicos e crie um menu com [submenus dropdown](https://codepen.io/LucioStuder/pen/mdprdBK). Pode experimentar um menu Bootstrap.
 
 ## Wordcloud com  Image Map SVG
 
