@@ -38,7 +38,7 @@
 * Crie o ficheiro `index.html` que será a hero page da sua cidade escolhida. Siga as boas práticas de [web design](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.10-web-design.pdf) referidas nas aulas para todas as páginas criadas e inclua:
    * uma fotografia ou video em background
    * uma frase que goste ao lado, motivacional
-   * um menu anterior em cima. 
+   * um menu em cima. 
 
 ## Layouts grid responsivos
 Adapte as 5 páginas com layouts grid que criou no lab3 por forma a que sejam responsivos ao tamanho do ecrã usando [media queries](https://moodle.ensinolusofona.pt/pluginfile.php/549222/mod_label/intro/pw-02.7-design-responsivo.pdf?#page=11). PAra cada página, deverá alterar a disposição dos seus elementos e adaptar-se para PC, telemovel, variando se estiver em modo landscape ou portrait.
