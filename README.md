@@ -5,7 +5,7 @@
 ## Objetivos
 * Este será o último laboratório sobre a cidade que escolheu, onde irá aplicar as técnicas aprendidas de design responsivo, efeitos e animações. Irá igualmente explorar as boas práticas de web design.
 * Este laboratório será avaliado por colegas seus de acordo com um conjunto de [critérios de avaliação](https://github.com/ULHT-PW/pw23-lab4/blob/main/PW%20-%20Lab%204%20-%20criterios%20de%20avalia%C3%A7%C3%A3o.pdf), pelo que explore ao máximo as técnicas aprendidas para fazer um website a seu gosto.
-* O prazo de entrega será dia 20, sendo avaliado posteriormente.
+* O prazo de entrega será dia 24, sendo avaliado posteriormente.
 
 ## Recomendações
 * Leia o enunciado com atenção antes de o começar a realizar, para entender o que fará.
